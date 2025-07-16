@@ -5,12 +5,12 @@ import type { DragDropManager } from 'dnd-core';
 import React, { useState } from 'react';
 import type { XYPosition } from 'reactflow';
 import { match } from 'ts-pattern';
-
 import { CodeEditor } from '../../../code-editor';
 import { useDecisionGraphActions, useDecisionGraphState } from '../../context/dg-store.context';
 import { type DecisionNode } from '../../dg-types';
 import { GraphNode } from '../graph-node';
 import type { InferTypeData, MinimalNodeProps, MinimalNodeSpecification } from '../specifications/specification-types';
+import '@ant-design/v5-patch-for-react-19';
 
 type CustomDecisionNode<T> = {
   id: string;
