@@ -1,5 +1,5 @@
 {
-  "name": "@gorules/jdm-editor",
+  "name": "@zxyuri/jdm-editor",
   "version": "1.45.1",
   "description": "",
   "author": "GoRules <hi@gorules.io> (https://gorules.io)",
@@ -46,9 +46,9 @@
     "@codemirror/lint": "^6.8.5",
     "@codemirror/state": "^6.5.2",
     "@codemirror/view": "^6.36.5",
-    "@gorules/lezer-zen": "workspace:*",
-    "@gorules/lezer-zen-template": "workspace:*",
-    "@gorules/zen-engine-wasm": "workspace:*",
+    "@zxyuri/lezer-zen": "0.8.0",
+    "@zxyuri/lezer-zen-template": "0.4.0",
+    "@zxyuri/zen-engine-wasm": "0.20.1",
     "@lezer/common": "^1.2.3",
     "@lezer/highlight": "^1.2.1",
     "@lezer/lr": "^1.4.2",
@@ -125,5 +125,6 @@
   "peerDependencies": {
     "react": ">= 19",
     "react-dom": ">= 19"
-  }
+  },
+  "gitHead": "12df13e6123938b66c723539b6d9157f41af95c8"
 }

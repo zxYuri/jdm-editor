@@ -1,5 +1,5 @@
 {
-  "name": "@gorules/lezer-zen",
+  "name": "@zxyuri/lezer-zen",
   "version": "0.8.0",
   "description": "lezer-based ZEN grammar",
   "main": "dist/index.cjs",
